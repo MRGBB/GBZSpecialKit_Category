@@ -1,0 +1,30 @@
+{
+  "name": "GBZSpecialKit_Category",
+  "version": "1",
+  "summary": "A short description of GBZSpecialKit_Category.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MRGBB/GBZSpecialKit_Category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MRGBB": "guobb@pifubao.com"
+  },
+  "source": {
+    "git": "https://github.com/MRGBB/GBZSpecialKit_Category.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GBZSpecialKit_Category/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ],
+    "GBZApisKit": [
+
+    ]
+  }
+}

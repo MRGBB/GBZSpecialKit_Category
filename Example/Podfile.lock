@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - CTHandyCategories (23):
+    - HandyFrame
+  - CTMediator (15):
+    - CTHandyCategories
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - GBZApisKit (2):
+    - AFNetworking
+    - FMDB
+  - GBZSpecialKit_Category (1):
+    - CTMediator
+    - GBZApisKit
+  - HandyFrame (1.2.0)
+
+DEPENDENCIES:
+  - GBZSpecialKit_Category (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - CTHandyCategories
+    - CTMediator
+    - FMDB
+    - HandyFrame
+  https://github.com/MRGBB/specs.git:
+    - GBZApisKit
+
+EXTERNAL SOURCES:
+  GBZSpecialKit_Category:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  CTHandyCategories: 10f812a5f545a9d8da34112e068a6e9b469c6782
+  CTMediator: d9122c972b29559d5d733a205e9b0a18c933b2ad
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  GBZApisKit: 1afb4b84896f2d9445ac54fdf4e4f5f1486fd22b
+  GBZSpecialKit_Category: bdd7c1037fca913b1f5ddf583f89a9385599303f
+  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
+
+PODFILE CHECKSUM: 4941d8f9e7dcc23797075957e5356cb2b887d6d4
+
+COCOAPODS: 1.5.0
