@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = MRGBB;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M66668F2X3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -497,11 +500,12 @@
 			baseConfigurationReference = C5956A409D56A8539541EAD8 /* Pods-GBZSpecialKit_Category_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M66668F2X3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GBZSpecialKit_Category/GBZSpecialKit_Category-Prefix.pch";
 				INFOPLIST_FILE = "GBZSpecialKit_Category/GBZSpecialKit_Category-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.GBZSpecial-Category-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -512,11 +516,12 @@
 			baseConfigurationReference = 69C6550A73286A5B43B0A194 /* Pods-GBZSpecialKit_Category_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M66668F2X3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GBZSpecialKit_Category/GBZSpecialKit_Category-Prefix.pch";
 				INFOPLIST_FILE = "GBZSpecialKit_Category/GBZSpecialKit_Category-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.GBZSpecial-Category-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
